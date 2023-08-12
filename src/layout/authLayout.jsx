@@ -20,7 +20,7 @@ const AuthLayout = ({
     <Fragment>
       <TopNav />
       <div className=" w-full flex bg-white h-auto justify-center items-center">
-        <div className="w-[85%] lg:w-1/2 flex flex-col my-12 bg-gradient-to-l from-purple-300 to-purple-100 text-purple-600 border border-purple-300 rounded-lg shadow-md">
+        <div className="w-[90%] lg:w-1/2 flex flex-col my-12 bg-gradient-to-l from-purple-300 to-purple-100 text-purple-600 border border-purple-300 rounded-lg shadow-md">
           <div>
             <div className="pt-20">
               <h1 className="text-4xl font-inter text-[#141414] font-semibold text-center ">

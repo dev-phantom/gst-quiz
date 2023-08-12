@@ -78,7 +78,7 @@ export default function SignUp() {
       buttonContent={isLoading ? "Please wait..." : "Get Started"}
       disabled={isLoading}
     >
-      <form className="md:px-14 px-8" onSubmit={handleSubmit}>
+      <form className="md:px-14 px-3" onSubmit={handleSubmit}>
         <Input
           type="email"
           placeholder="Email address"

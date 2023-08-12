@@ -2,8 +2,8 @@ import { useNavigate } from "react-router-dom";
 export default function LandingContent() {
     let navigate = useNavigate()
   return (
-    <div className="flex w-full flex-col md:flex-row px-10">
-      <div className="md:w-1/2 w-full mt-10 md:mt-32">
+    <div className="flex w-full flex-col md:flex-row px-5 md:px-10">
+      <div className="md:w-1/2 w-full my-10 md:mt-32">
         <div>
           <img
             src="https://res.cloudinary.com/phantom1245/image/upload/v1691793690/gst-quiz/uniben-logo1__2_-removebg-preview_bne2jt.png"
@@ -15,7 +15,7 @@ export default function LandingContent() {
           <div className="font-inter font-semibold md:text-lg py-2">
             Master GST with Flexible, Self-Paced Tests!
           </div>
-          <h1 className="font-merriweather text-center md:text-left text-2xl md:text-4xl md:leading-[3rem] font-bold pr-9">
+          <h1 className="font-merriweather text-2xl md:text-4xl md:leading-[3rem] font-bold md:pr-9">
             Welcome to the future of <br className="hidden md:flex"/>
             <span className="text-[#7b1FA2]">GST learning!</span> 
             </h1>
