@@ -47,7 +47,7 @@ const AuthLayout = ({
                 </button>
               </Link>
             </div>
-            <div className="py-8 text-sm font-dmSan font-500 text-[#141414] text-center ">
+            <div className="py-8 text-sm font-dmSan font-500 text-[#222] text-center ">
               {quesion}{" "}
               <span>
                 <Link to={questionLink} className="text-[#4A148C]">

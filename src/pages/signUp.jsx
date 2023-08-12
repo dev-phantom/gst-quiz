@@ -71,7 +71,7 @@ export default function SignUp() {
 
   return (
     <AuthLayout
-      question={"Already have an account?"}
+      quesion={"Already have an account?"}
       questionLinkText={"Sign In"}
       questionLink={"/login"}
       handleSubmit={handleSubmit}

@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.skewed{
+    transform: skewX(-15deg)
+}
+.skewd{
+    transform: skewX(-15deg)
+}
