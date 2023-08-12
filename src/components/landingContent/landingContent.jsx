@@ -15,13 +15,16 @@ export default function LandingContent() {
           <div className="font-inter font-semibold text-lg py-2">
             Master GST with Flexible, Self-Paced Tests!
           </div>
-          <h1 className="font-merriweather text-3xl font-bold pr-5">
+          <h1 className="font-merriweather text-3xl font-bold pr-9">
             Welcome to the future of{" "}
-            <span className="text-[#7b1FA2]">GST learning!</span> <br /> Our
-            revolutionary platform empowers you to take GST tests on your terms.
+            <span className="text-[#7b1FA2]">GST learning!</span> <br /> Empower
+            yourself with flexible GST tests on our revolutionary platform.
           </h1>
           <div className="mt-[1.5rem]">
-            <button onClick={() => navigate("/sign-up")} className="bg-[#7b1FA2]  py-3 capitalize font-roboto px-6 text-white rounded ">
+            <button
+              onClick={() => navigate("/sign-up")}
+              className="bg-[#7b1FA2]  py-3 capitalize font-roboto px-6 text-white rounded "
+            >
               get started
             </button>
           </div>
