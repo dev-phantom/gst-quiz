@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 export default function TopNav() {
   let navigate = useNavigate();
   return (
-    <div className="w-full py-5 px-14 flex justify-between items-center shadow-lg rounded-b-lg bg-[#E1BEE7]">
+    <div className="w-full py-3 md:py-5 px-4 md:px-14 flex justify-between items-center shadow-lg rounded-b-lg bg-[#E1BEE7]">
       <div className="font-Merriweather font-bold">
         <a href="/">DEVOUTdev</a>
       </div>

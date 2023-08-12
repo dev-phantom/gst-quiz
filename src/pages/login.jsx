@@ -70,7 +70,7 @@ export default function Login() {
       disabled={isLoading}
       subHeading={"Continue from where you stopped"}
     >
-      <form className="md:px-14 px-8" onSubmit={handleSubmit}>
+      <form className="md:px-14 px-3" onSubmit={handleSubmit}>
         <Input
           type="email"
           placeholder="Email address"
